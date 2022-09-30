@@ -27,6 +27,10 @@ body {
   font-family: 'Major Mono Display', monospace;
 }
 
+.bold {
+  font-weight: bold;
+}
+
 /* banner */
 .section {
   padding: 20px;
@@ -60,8 +64,19 @@ body {
 /* card */
 .card {
   width: 180px;
+  font-size: 12px;
 }
 
 .card-photo {
-  width: 400px;
+  width: 100%;
+  border-radius: 9px;
+}
+
+.card-stats {
+  display: flex;
+  align-items: center;
+}
+
+.card-star {
+  width: 14px;
 }
