@@ -1,6 +1,6 @@
-import logo from '../assets/logo.png'
-
 function Navbar() {
+  const logo = process.env.PUBLIC_URL + '/assets/logo.png'
+
   return (
     <nav className="navbar">
       <img className="nav-logo" src={logo} alt="logo" />
